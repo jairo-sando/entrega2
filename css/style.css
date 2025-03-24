@@ -1,0 +1,447 @@
+/* Estilos Mobile INDEX*/
+
+*{
+
+    box-sizing:border-box;
+ 
+ }
+ 
+ /* Caracteristicas Generales */
+ 
+ body{
+ 
+    margin: 0%;
+ 
+ }
+ 
+ 
+ /* Titulos y Parrafos */
+ 
+ h1{ font-size: 2.5em;}
+ h2{ font-size: 2.0em;}
+ h3{ font-size: 1.5em;}
+ p{ font-size: 1.2em;}
+ 
+ 
+ /* Estilos Boton Contactanos */
+ 
+ button{
+ 
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 1px solid rgb(0,0,0,0.5);
+  box-shadow: 2px 2px 8px  rgb(0,0,0,0.5) ;
+  color: white;
+  background-color: rgb(41, 170, 164);
+ 
+ }
+ 
+ button:hover{
+       background-color: rgb(26, 119, 114)
+ }
+ 
+ .container{
+     max-width: 1400px;
+     margin: auto;
+ 
+ }
+ 
+ .color-acento{color: rgb(26, 119, 114);}
+ 
+ /* Estilos Header */
+ 
+ header{
+     background-color:rgb(201, 201, 201) ;
+        
+ }
+ 
+ header .logo{
+     margin: 0;
+     padding: 25px 30px;
+     font-weight:  bold;
+     color: rgb(26, 119, 114);
+     font-size: 1.7em;
+     text-align: center;
+ 
+     
+ 
+ }
+ 
+ header .container{
+ 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+ }
+ 
+ header nav{
+     
+     display: flex;
+     flex-direction: column ;
+     text-align: center;
+     padding-bottom: 25px;
+     
+ }
+ 
+ header a{
+    
+     padding: 5px 12px;
+     text-decoration: none;
+     color: black;
+     font-weight:500;
+     
+ 
+ }
+ 
+ header a:hover{
+     
+     color: rgb(26, 119, 114);
+ 
+ }
+ 
+ /* Estilos Banners Principales */
+ 
+ #banner{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align:center; 
+   flex-direction: column;
+   height: 90vh;
+   color:whitesmoke; 
+   background-image: linear-gradient(
+     0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)
+   ), 
+   url(/imagenes/BannerPrincipal.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center; 
+ 
+ }
+ 
+ #banner-nosotros{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align:center; 
+     flex-direction: column;
+     height: 90vh;
+     color:whitesmoke; 
+     background-image: linear-gradient(
+       0deg,
+       rgba(0,0,0,0.5),
+       rgba(0,0,0,0.5)
+     ), 
+     url(/imagenes/BannerNosotros.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center; 
+   
+   }
+ 
+ #banner-servicios{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align:center; 
+     flex-direction: column;
+     height: 90vh;
+     color:whitesmoke; 
+     background-image: linear-gradient(
+       0deg,
+       rgba(0,0,0,0.5),
+       rgba(0,0,0,0.5)
+     ), 
+     url(/imagenes/BannerServicios.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center
+ 
+ 
+ 
+ }
+ 
+ #banner-empleos{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align:center; 
+     flex-direction: column;
+     height: 90vh;
+     color:whitesmoke; 
+     background-image: linear-gradient(
+       0deg,
+       rgba(0,0,0,0.5),
+       rgba(0,0,0,0.5)
+     ), 
+     url(/imagenes/BannerEmpleos.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center
+    
+ 
+ }
+ 
+ #banner-contacto{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align:center; 
+     flex-direction: column;
+     height: 90vh;
+     color:whitesmoke; 
+     background-image: linear-gradient(
+         0deg,
+         rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)
+       ), url(/imagenes/BannerContac.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ /* Estilos Centro de la Página */
+ 
+ #centro-pag .container{
+    text-align: center;
+    padding: 200px 12px;
+ }
+ 
+ 
+ #centro-nosotros .container{
+    text-align: center;
+    padding: 110px 12px;
+ 
+ }
+   
+ #centro-nosotros h2{
+     padding: 30px 120px;
+ }
+ 
+ #centro-servicios{
+     
+     padding: 150px 50px;
+     text-align: center;
+     margin: 10px;
+       
+ 
+ }
+ 
+ #centro-servicios h5{
+     font-size: 1.5em;
+         
+ 
+ }
+ 
+ #centro-servicios p{
+     color: rgb(26, 119, 114)
+ 
+ }
+ 
+ 
+ #Titulo-empleos{
+    text-align: center;
+    margin: 150px;
+ 
+ 
+ }
+ 
+ 
+ 
+ #centro-empleos{
+    display: grid;
+    margin-inline-end: 150px;
+    margin-inline-start: 150px;
+    background-image: url(/imagenes/Buscarvacantes.jpg);
+    margin-block: 130px;
+     
+ 
+    
+ 
+ }
+ 
+ 
+ 
+ 
+ /* Estilos Parte Inferior*/
+ 
+ #nos-eligieron{
+   background-color: darkgrey;
+   color: white;
+ 
+ }
+ 
+ #nos-eligieron .container{
+     text-align: center;
+     padding: 40px 0px;
+ 
+ }
+ 
+ 
+ #nos-eligieron .h2{
+     margin-top: 0;
+ }
+ 
+ 
+ #nos-eligieron .info{
+    background-position: center center;
+    background-size: cover;
+    padding: 40px;
+    margin: 5px;
+    border-radius: 15px;
+ 
+ }
+ 
+ .info:first-child{
+     background-image: linear-gradient(
+       0deg,
+       rgba(0,0,0,0.5),
+       rgba(0,0,0,0.5)
+     )
+      ,url(/imagenes/Opiniones3.png);
+       
+ }
+ 
+ .info:nth-child(2){
+     background-image: linear-gradient(
+         0deg,
+         rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)
+       )
+        ,url(/imagenes/Opiniones2.png);
+     
+ }
+ 
+ .info:last-child {
+     background-image: linear-gradient(
+         0deg,
+         rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)
+       )
+        ,url(/imagenes/Opiniones1.jpg);
+     
+ }
+ 
+ 
+ 
+ #Contactanos{
+ 
+    text-align: center;
+    align-items: center;
+    
+ 
+ }
+ 
+ 
+ #desplegable-servicios{
+    display: flex;
+    padding: 30px;
+    background-image: url(/imagenes/desplegableservicios.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 30vh;
+    margin: 45px;
+       
+ 
+ }
+ 
+ 
+ #inferior-servicios{
+    text-align: center;
+    margin: 30px;
+  
+ 
+ }
+ 
+ 
+ /* Estilos Footer */
+ 
+ footer{
+ 
+     background-color:rgb(201, 201, 201);
+     
+ }
+ 
+ footer .container{
+     height: 36px;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     
+     
+ 
+ }
+ 
+ 
+ /* Estilos Desktop */
+ 
+ @media (min-width: 768px){
+      header .container{
+           flex-direction: row;
+           justify-content: space-between;
+      }
+      
+      header nav{
+           flex-direction: row;
+           padding-bottom: 0;
+           padding-right: 20px;
+ 
+      }
+ 
+ }
+ 
+ 
+ #centro-pag  .container{
+     display: flex;
+     justify-content: center;
+ 
+ }
+ 
+ #centro-pag .texto{
+      width: 50%;
+      max-width: 400px ;
+      text-align: initial;
+      padding: 0px 30px;
+      align-items: center;
+   }
+ 
+ 
+ 
+ #centro-pag  .img-contenedor{
+     background-image: url(/imagenes/creandooportunidades.jpg);
+     background-size: cover;
+     background-position: center center;
+     height: 500px;
+     width: 400px;
+ 
+ }
+ 
+ 
+ 
+ #nos-eligieron .comentarios{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ #nos-eligieron p{
+   display: block;
+ 
+ 
+ }
+ 
+ #nos-eligieron .info{
+    padding: 15px;
+ 
+ }
+ 
+ 
